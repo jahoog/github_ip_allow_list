@@ -1,5 +1,6 @@
 # Github IP Allow List Python Script 
 This is a python script to interact with Github IP Allow List for a GH Org.  This is provided as an example with no warranty or support.
+*NOTE that this script could add hundreds of IP ranges to your allow list, so make sure that is what you intend.  You can change the service or region to only retrieve those ip ranges that you need. (eg. *CODEBUILD* and *us-east-2*)
 
 ## EXAMPLE USAGE: Retrieve all IP ranges for the EC2 service in us-west-2 and add to Github IP Allow List
 
